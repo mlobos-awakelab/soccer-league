@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Northside Youth Soccer League</title>
+    <link href="estilos/nysl.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <header>
+        <div class="main-header">
+             <!--logo-->
+            <div class="logo">
+                <img class="image-logo" src="img/nysl_logo.png" alt="Logo"/>
+            </div>
+
+            <!--navigation-->
+            <div class="navigation">
+                <ul>
+                    <li><a href="home.html" class="color-menu-inactive">HOME</a></li>
+                    <li><a href="about.html" class="color-menu-inactive">ABOUT NYSL</a></li>
+                    <li><a href="game_info.html" class="color-menu-inactive">PARTIDOS</a></li>
+                    <li><a href="#" class="color-menu-inactive">REGLAS</a></li>
+                    <li><a href="#" class="color-menu-active">REGISTRO<hr class="line-navigation"></a></li>
+                    <li><a href="contact.html" class="color-menu-inactive">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--background-image-->
+        <div class="image-main">
+        </div>
+    </header>  
+
+    
+
+    <main>
+        <div class="div-main-registration">
+            <h3 class="subtitle">Formulario de inscripción</h3>
+            <form method="GET" action="show_data.html">
+                <div class="sub-div-form-registration">
+                    <div class="width-50-vw" >
+                        <label for="txtFirstName" class="label-registration width-100-px">Nombre del jugador: </label>
+                        <input type="text" id="txtFirstName" name="txtFirstName" class="width-450-px">
+                    </div>
+                    <div class="width-50-vw">
+                        <label for="txtLastName" class="label-registration width-100-px">Apellido: </label>
+                        <input type="text" id="txtLastName" name="txtLastName" class="width-450-px">
+                    </div>
+                </div>
+                <div class="column-form-1">
+                    <div class="width-100-vw" >
+                        <label for="txtDirection" class="label-registration width-100-px">Dirección: </label>
+                        <input type="text" id="txtDirection" name="txtDirection" class="width-1130-px">
+                    </div>
+                </div>
+                <div class="column-form-1">
+                    <div class="width-50-vw" >
+                        <label for="txtCity" class="label-registration width-100-px">Ciudad: </label>
+                        <input type="text" id="txtCity" name="txtCity" class="width-450-px">
+                    </div>
+                    <div class="width-50-vw">
+                        <label for="txtPostalCode" class="label-registration width-100-px">Código Postal: </label>
+                        <input type="text" id="txtPostalCode" name="txtPostalCode" class="width-450-px">
+                    </div>
+                </div>
+                <div class="column-form-1">
+                    <div class="width-50-vw" >
+                        <label for="txtBirthDate" class="label-registration width-100-px">Fecha de Nacimiento (mm/dd/aaaa): </label>
+                        <input type="text" id="txtBirthDate" name="txtBirthDate" class="width-200-px">
+                    </div>
+                    <div class="width-50-vw">
+                        <label class="label-registration">Género: </label>
+                        <input type="radio" id="" name="rdGender" value="Mujer">Mujer</input>
+                        <input type="radio" id="" name="rdGender"  value="Hombre">Hombre</input>
+                    </div>
+                </div>
+                <div class="column-form-1">
+                    <div class="width-100-vw">
+                        <label class="label-registration">Grado: </label>
+                        <input type="radio" id="" name="rdGrade" value="preescolar">preescolar</input>
+                        <input type="radio" id="" name="rdGrade" value="1o">1<sup>o</sup></input>
+                        <input type="radio" id="" name="rdGrade" value="2o">2<sup>o</sup></input>
+                        <input type="radio" id="" name="rdGrade" value="3o">3<sup>o</sup></input>
+                        <input type="radio" id="" name="rdGrade" value="4o">4<sup>o</sup></input>
+                        <input type="radio" id="" name="rdGrade" value="5o">5<sup>o</sup></input>
+                    </div>
+                </div>
+                <div class="column-form-1">
+                    <div class="width-100-vw" ><br><br>
+                        <label class="label-registration font-weight-bold">¿De qué escuela vives mas cerca?: </label><br>
+                        <label class="label-registration font-weight-bold">Escuelas  más cercana: </label><br>
+                        <div>
+                            <input type="radio" id="" name="rdNearestSchool" value="AJ Katzenmaier">AJ Katzenmaier</input>
+                            <input type="radio" id="" name="rdNearestSchool" value="Marjorie P Hart">Marjorie P Hart</input>
+                            <input type="radio" id="" name="rdNearestSchool" value="Greenbay">Greenbay</input><br>
+                            <input type="radio" id="" name="rdNearestSchool" value="North Elementary">North Elementary</input>
+                            <input type="radio" id="" name="rdNearestSchool" value="Howard A Yeager">Howard A Yeager</input>
+                            <input type="radio" id="" name="rdNearestSchool" value="South Elementary">South Elementary</input>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="column-form-1 align-items-left">
+                    <div class="width-100-vw" ><br><br>
+                        <label class="label-registration font-weight-bold">
+                            ¿Qué posición(es) juegas normalmente? (marque todas las que correspondan)</label><br>
+                            <input type="checkbox" id="" name="chkPosition" value="Delantero">Delantero</input>
+                            <input type="checkbox" id="" name="chkPosition" value="mediocampo">mediocampo</input><br>
+                            <input type="checkbox" id="" name="chkPosition" value="Portero">Portero</input>
+                            <input type="checkbox" id="" name="chkPosition" value="defensa">defensa</input>
+                    </div>
+                </div>
+                <div class="column-form-1 align-items-left">
+                    <div class="width-100-vw" ><br><br>
+                        <label class="label-registration font-weight-bold">Tamaño uniforme:</label><br>
+                        <div>
+                            <input type="radio" id="" name="rdUniformSize" value="Niño P">Niño P</input>
+                            <input type="radio" id="" name="rdUniformSize" value="Mediano">Mediano</input>
+                            <input type="radio" id="" name="rdUniformSize" value="Niño M">Niño M</input>
+                            <input type="radio" id="" name="rdUniformSize" value="Grande">Grande</input>
+                            <input type="radio" id="" name="rdUniformSize" value="Niño G">Niño G</input>
+                            <input type="radio" id="" name="rdUniformSize" value="Extra-Grande">Extra-Grande</input>
+                            <input type="radio" id="" name="rdUniformSize" value="Pequeño">Pequeño</input>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="column-form-2">
+                    <div class="width-100-vw" ><br><br>
+                        <label class="label-registration font-weight-bold">Permiso para jugar</label><br>
+                        <p class="label-registratio font-size-12px">
+                            Yo, el padre o tutor del solicitante de registro menor, estoy de acuerdo en que el solicitante de registro y
+                            yo acataremos todas las reglas de la Northside Youth Soccer League (NYSL). Al reconocer la posibilidad
+                            de lesiones físicas asociadas al fútbol y en consideración a la"Liga" que acepta al solicitante de registro
+                            para sus programas y actividades de fútbol, Por la presente libero y descargo a NYSL, sus empleados y
+                            personal asociado y voluntarios, incluyendo las instalaciones utilizadas para prácticas y juegos, contra
+                            cualquier reclamo por o en nombre del solicitante de registro como resultado de la participación del
+                            solicitante del programa a o en el transporte desde o hacia las actividades patrocinadas por NYSL.
+                        </p>
+                        <p class="label-registration font-size-12px">
+                            Al firmar a continuación, acuerdo y autorizo lo anterior. Además, al firmar a continuación, reconozco
+                            que he leído la política de cancelación y acepto sus términos.
+                        </p>
+                        <div class="column-form-1">
+                            <div class="width-70-vw">
+                                <table>
+                                    <tr>
+                                        <td><label class="label-registration label-firm">
+                                            Firma Padre/Tutor: </label></td>
+                                        <td><hr class="hr-firm"></td>
+                                        <td><label class="label-registration label-date">
+                                            Fecha: </label></td>
+                                        <td><hr class="hr-date"></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-button-submit">
+                    <input type="submit" value="Enviar" class="width-150-px">
+                </div>
+            </form>
+        </div>
+    </main>
+    <br><br><br>
+</body>
+</html>

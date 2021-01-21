@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-header{
+    background-color: #252729; 
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.logo{
+    width: 200px;
+    height: 120px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-logo{
+    width: 100px;
+}
+
+.navigation{
+    width: 200px;
+    height: 75px;
+    flex-grow: 4;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    padding-left: 20px;
+}
+
+ul{
+    display: inline-flex; 
+    vertical-align: top; 
+    text-align: left; 
+    margin-bottom: 0px; 
+    list-style-type: none;
+}
+
+li{
+    padding-right: 50px;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Jost;
+}
+
+.line-navigation{
+    width: 20px;
+    height: 4px;
+    background-color: #0054A6;
+    border: none;
+    margin-top: 20px;
+}
+
+.image-main{
+    background-image: url(../img/design1_image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 350px;
+}
+
+.color-menu-active{
+    color:  #6ca6df;
+}
+
+.color-menu-inactive{
+    color:  #fffce8;
+}
+
+main{
+    background-color: #F3F3F3;
+}
+
+.subtitle{
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: #383838;
+    font-weight: bold;
+    font-family: Jost;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.line-subtitle{
+    width: 60px; 
+    height: 4px;
+    background-color: #b0ff4a; 
+    border: none; 
+ /*  */
+}
+
+
+
+.margin-top-80{
+    margin-top: 80px;
+}
+
+.margin-top-30{
+    margin-top: 30px;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.margin-top-5{
+    margin-top: 5px;
+}
+
+.main-secundary{
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tall-space{
+    margin-top: 40px;
+}
+
+.subTitleH4{
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #383838;
+    font-weight: bold;
+    font-family: Jost;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.font-italic{
+    font-style: italic;
+}
+
+.font-weight-bold{
+    font-weight: bold;
+}
+
+.font-size-12px{
+    font-size: 12px;
+}
+
+.div-default-content{
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: column;
+}
+
+.width-100-vw{
+    width: 100vw;
+}
+
+.width-70-vw{
+    width: 70vw;
+}
+
+.width-50-vw{
+    width: 50vw;
+}
+
+.width-100-px{
+    width: 100px;
+}
+
+.width-150-px{
+    width: 150px;
+}
+
+.width-200-px{
+    width: 200px;
+}
+
+.width-450-px{
+    width: 450px;
+}
+
+.width-1130-px{
+    width: 1130px;
+}
+
+.align-items-left{
+    /*align-items: left;*/
+}
+
+/*  inicio contact.html  */
+.contact-paragraph{
+    font-size: 19px; 
+    font-style: normal; 
+    color: #747474; 
+    font-family: Jost;
+}
+
+.main-height{
+    height: 400px;
+}
+
+.div-main-contact{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+/*  fin contacto.html  */
+
+
+/*  inicio about.html  */
+
+
+.div-main-about{
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+    height: 600px; 
+    width: 100vw;
+    margin-top: 80px;
+}
+
+.div-main-image{
+    height: 600px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 40vw;
+}
+
+.div-content-about{
+    height: 600px; 
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: nowrap;
+    justify-content:left;
+    /*align-items: left; */
+    width: 60vw;
+}
+
+.hr-about{
+    width: 60px; 
+    height: 4px; 
+    background-color: #b0ff4a; 
+    border: none;
+}
+
+.about-paragraph{
+    font-size: 19px; 
+    font-style: normal; 
+    color: #747474; 
+    font-family: Jost; 
+    margin-right: 20px;
+}
+/*  fin about.html  */
+
+
+/*  inicio home.html  */
+.main-home{
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+    height: 600px; 
+    width: 100vw;
+    margin-top: 80px;
+}
+
+.main-image-home{
+    height: 600px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 40vw;
+    margin-top: -100px;
+}
+
+.div-main-home{
+    height: 400px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 40vw;
+}
+
+.div-content-home{
+    height: 600px; 
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: nowrap;
+    justify-content:left;
+    /*align-items: left; */
+    width: 60vw;
+}
+
+.hr-home{
+    width: 60px; 
+    height: 4px; 
+    background-color: #b0ff4a; 
+    border: none;
+}
+
+.div-home-paragraph{
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: column;
+}
+
+.home-paragraph{
+    font-size: 19px; 
+    font-style: normal; 
+    color: #747474; 
+    font-family: Jost; 
+    margin-right: 20px;
+}
+
+/*  fin home.html  */
+
+
+
+
+/*  inicio partidos.html */ 
+
+.div-main-game-info{
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: nowrap; 
+    height: 600px;
+    width: 90vw;
+    margin-top: 80px;
+    justify-content: left;
+     margin-left: 50px;
+}
+
+.hr-game-info{
+    width: 60px; 
+    height: 4px; 
+    background-color: #b0ff4a; 
+    border: none;
+}
+
+.game-info-paragraph{
+    font-size: 19px; 
+    font-style: normal; 
+    color: #747474; 
+    font-family: Jost;
+}
+
+.div-table-game-info{
+    margin-top: 30px; 
+    display:flex; 
+    justify-content: center;
+}
+
+.table-game-info{
+    font-family: Jost; 
+    font-size: 19px; 
+    font-style: normal; 
+    width: 80%;
+}
+
+.thead-game-info{
+    border-color: #0054A6; 
+    border: 0;
+    background-color: #0054A6;
+    border: 1px solid black; 
+    border-collapse: collapse; 
+    color: white; 
+    height: 50px; 
+    font-style: italic;
+    text-align: left;
+}
+
+.tr1-game-info{
+    background-color: #F9F9F9;
+}
+
+.tr2-game-info{
+    background-color: #F3F3F3;
+}
+
+.game-info-paragraph{
+    font-size: 19px; 
+    font-style: normal; 
+    color: #747474; 
+    font-family: Jost;
+}
+
+/*  fin partidos.html */ 
+
+
+
+/* inicio registration.html  */
+
+.div-main-registration{
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: nowrap; 
+    height: 1000px; 
+    width: 90vw;
+    margin-top: 80px;
+    justify-content: left; 
+    margin-left: 50px;
+}
+
+.sub-div-form-registration{
+    height: 60px; 
+    display: flex; 
+    align-items: center; 
+    flex-direction: row; 
+    flex-wrap: nowrap;
+}
+
+.label-registration{
+    font-size: 19px; 
+    font-style: normal; 
+    color: #747474; 
+    font-family: Jost;
+}
+
+.column-form-1{
+    height: 60px; 
+    display: flex; 
+    align-items: center; 
+    flex-direction: row; 
+    flex-wrap: nowrap;
+}
+
+
+.column-form-2{
+    display: flex; 
+    align-items: center; 
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+    /*align-items: left;*/
+}
+
+.div-button-submit{
+    height: 60px; 
+    display: flex; 
+    align-items: center; 
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+    justify-content: center;
+}
+
+.hr-firm{
+    width: 300px; 
+    margin-top: 10px;
+}
+
+.hr-date{
+    width: 300px; 
+    margin-top: 10px;
+}
+
+.label-firm{
+    width: 100px; 
+    font-size: 12px;
+}
+
+.label-date{
+    width: 100px; 
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+
+/* fin registration.html  */
+
+
+
+/* inicio show_data.html   */
+
+.div-main-show-data{
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: nowrap; 
+    height: 600px; 
+    width: 90vw;
+    margin-top: 80px;
+    justify-content: left; 
+    margin-left: 50px;
+}
+
+.div-table-show-data{
+    margin-top: 30px; 
+    display:flex; 
+    justify-content: center;
+}
+
+.table-show-data{
+    font-family: Jost; 
+    font-size: 19px; 
+    font-style: normal; 
+    width: 80%;
+}
+
+.tr-show-data{
+    border-color: #0054A6; 
+    border: 0;
+    background-color: #0054A6;
+    border: 1px solid black; 
+    border-collapse: collapse; 
+    color: white; 
+    height: 50px; 
+    font-style: italic;
+    text-align: left;
+}
+
+/* fin show_data.html   */
+
+
